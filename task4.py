@@ -107,7 +107,7 @@ def organize_files_by_date(source_folder, destination_folder):
 
             # Move the file to the subfolder
             shutil.move(source_path, os.path.join(destination_path, filename))
-            print(f"copy {filename} to {destination_path}")
+            print(f"move {filename} to {destination_path}")
 
 # Use the function to organize files based on their creation date
 source_folder = r'C:\Users\ma512\Documents\ML\codealpha'
